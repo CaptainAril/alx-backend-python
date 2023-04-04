@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Async Comprehension."""
 
-from typing import Iterator
 import random
+from typing import Iterator
 
 
 async def async_generator() -> Iterator[int]:
